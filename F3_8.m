@@ -1,6 +1,7 @@
 clc;
 clear;
 close all;
+clc;
 %% 阵列设置
 M = 12;
 r = 1;
