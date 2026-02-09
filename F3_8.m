@@ -47,7 +47,7 @@ p0_0 = exp(-1*1i*posi*k0_vector);
 k1_vector = -1*k1*[sin(theta0)*sin(phi0); sin(theta0)*cos(phi0); cos(theta0)];
 p0_1 = exp(-1*1i*posi*k1_vector);
 %% 循环
-SNR = 0:10:20;
+SNR = 0:1:20;
 MC = 1;
 f_Es1_MUSIC = zeros(length(SNR),MC);
 f_Es2_MUSIC = zeros(length(SNR),MC);
